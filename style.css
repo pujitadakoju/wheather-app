@@ -1,0 +1,40 @@
+        .container {
+                width: 90%; 
+                margin: 0 auto; 
+                padding: 20px; 
+                border: 1px solid  #ccc ; 
+                background-color: transparent; 
+              }
+        body{
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #6fb1fc, #a0e0f5);
+        }
+
+        img {
+            display: center;
+            margin: auto;
+            width: auto;
+          }          
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+        }
+        .card-title, .card-text {
+            color: white;
+        }
+        .weather-card {
+            text-align: center;
+            padding: 1rem;
+        }
+        .weather-card img {
+            margin-bottom: 1rem;
+        }
+        .weather-data {
+            font-size: 1.5rem;
+        }
+        .weather-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
